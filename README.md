@@ -38,7 +38,7 @@ Una aplicación móvil que utiliza los sensores integrados de los dispositivos p
 
 ├── App.js                # Entrada principal de la aplicación
 
-##🔑 Código Destacado
+## 🔑 Código Destacado
 
 Contador de Pasos
 
@@ -49,11 +49,11 @@ Nivel de Inclinación
 
 ![image](https://github.com/user-attachments/assets/e542a65b-f034-4e7c-ae44-0b22f2efcfa3)
 
-##📸 Captura de Pantalla
+## 📸 Captura de Pantalla
 
 ![image](https://github.com/user-attachments/assets/03ba4630-2253-43a1-b0f6-c3a1e1fac233)
 
-##🛠️ Cómo Ejecutar el Proyecto
+## 🛠️ Cómo Ejecutar el Proyecto
 
 Clona el repositorio.
 
@@ -67,6 +67,6 @@ yarn start
 
 o Escanea el código QR con tu dispositivo móvil para probarla.
 
-🌟 Reflexiones
+## 🌟 Reflexiones
 
 Desarrollar esta app fue una experiencia emocionante que nos permitió explorar el uso de sensores como el acelerómetro y giroscopio. Al trabajar en funcionalidades como el contador de pasos y el nivel de inclinación, aprendimos cómo interpretar datos de sensores y cómo presentarlos de forma clara y visualmente atractiva.
