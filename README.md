@@ -34,36 +34,13 @@ Una aplicación móvil que utiliza los sensores integrados de los dispositivos p
 
 🔑 Código Destacado
 Contador de Pasos
-Detecta pasos usando el acelerómetro y un umbral predefinido:
 
-const accelSubscription = Accelerometer.addListener(({ x, y, z }) => {
-  const totalAcceleration = Math.sqrt(x * x + y * y + z * z);
-  const delta = totalAcceleration - Math.sqrt(
-    previousAcceleration.x ** 2 +
-    previousAcceleration.y ** 2 +
-    previousAcceleration.z ** 2
-  );
+![image](https://github.com/user-attachments/assets/f17d6a82-6ec8-4600-9943-c4df8592df69)
 
-  if (delta > threshold) {
-    setSteps((prevSteps) => prevSteps + 1);
-  }
-  previousAcceleration = { x, y, z };
-});
+
 Nivel de Inclinación
-Calcula pitch y roll combinando acelerómetro y giroscopio:
 
-Accelerometer.addListener(({ x, y, z }) => {
-  const pitchAngle = (Math.atan2(x, Math.sqrt(y * y + z * z)) * 180) / Math.PI;
-  const rollAngle = (Math.atan2(y, z) * 180) / Math.PI;
-
-  setPitch((prevPitch) => (prevPitch + pitchAngle) / 2); // Suavizado
-  setRoll((prevRoll) => (prevRoll + rollAngle) / 2); // Suavizado
-});
-
-Gyroscope.addListener(({ x, y }) => {
-  setPitch((prevPitch) => prevPitch + x * 0.5);
-  setRoll((prevRoll) => prevRoll + y * 0.5);
-});
+![image](https://github.com/user-attachments/assets/e542a65b-f034-4e7c-ae44-0b22f2efcfa3)
 
 📸 Captura de Pantalla
 
