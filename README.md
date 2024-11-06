@@ -66,6 +66,7 @@ Gyroscope.addListener(({ x, y }) => {
 });
 
 📸 Captura de Pantalla
+
 ![image](https://github.com/user-attachments/assets/03ba4630-2253-43a1-b0f6-c3a1e1fac233)
 
 🛠️ Cómo Ejecutar el Proyecto
