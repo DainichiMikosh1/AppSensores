@@ -34,7 +34,7 @@ Una aplicación móvil que utiliza los sensores integrados de los dispositivos p
 
 ├── /screens
 
-├── /screens/HomePage.js           # Pantalla principal que combina las funcionalidades
+│   ├── HomePage.js           # Pantalla principal que combina las funcionalidades
 
 ├── App.js                # Entrada principal de la aplicación
 
