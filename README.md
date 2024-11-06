@@ -77,9 +77,7 @@ npm install
 
 Ejecuta la app:
 yarn start
-
 o Escanea el código QR con tu dispositivo móvil para probarla.
+
 🌟 Reflexiones
 Desarrollar esta app fue una experiencia emocionante que nos permitió explorar el uso de sensores como el acelerómetro y giroscopio. Al trabajar en funcionalidades como el contador de pasos y el nivel de inclinación, aprendimos cómo interpretar datos de sensores y cómo presentarlos de forma clara y visualmente atractiva.
-
----
