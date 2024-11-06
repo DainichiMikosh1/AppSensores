@@ -33,6 +33,7 @@ Una aplicación móvil que utiliza los sensores integrados de los dispositivos p
 ├── App.js                # Entrada principal de la aplicación
 
 🔑 Código Destacado
+
 Contador de Pasos
 
 ![image](https://github.com/user-attachments/assets/f17d6a82-6ec8-4600-9943-c4df8592df69)
