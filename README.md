@@ -25,11 +25,17 @@ Una aplicación móvil que utiliza los sensores integrados de los dispositivos p
 ## 📂 Estructura del Proyecto
 
 ├── /components
+
 │   ├── Nivel.js          # Componente para el nivel de inclinación
+
 │   ├── Pasos.js          # Componente para mostrar los pasos contados
+
 ├── /imagenes             # Carpeta para las imágenes utilizadas en la app
+
 ├── /screens
+
 ├── /screens/HomePage.js           # Pantalla principal que combina las funcionalidades
+
 ├── App.js                # Entrada principal de la aplicación
 
 🔑 Código Destacado
