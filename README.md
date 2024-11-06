@@ -54,13 +54,17 @@ Nivel de Inclinación
 ![image](https://github.com/user-attachments/assets/03ba4630-2253-43a1-b0f6-c3a1e1fac233)
 
 🛠️ Cómo Ejecutar el Proyecto
+
 Clona el repositorio.
 
 Instala las dependencias:
+
 npm install
 
 Ejecuta la app:
+
 yarn start
+
 o Escanea el código QR con tu dispositivo móvil para probarla.
 
 🌟 Reflexiones
