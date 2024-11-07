@@ -10,7 +10,7 @@ const HomePage = () => {
   const [pitch, setPitch] = useState(0);
   const [roll, setRoll] = useState(0);
 
-  useEffect(() => {
+  useEffect(() => { 
     // Configurar sensores
     Accelerometer.setUpdateInterval(100);
     Gyroscope.setUpdateInterval(100);
