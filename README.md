@@ -53,6 +53,8 @@ Nivel de Inclinación
 
 ![image](https://github.com/user-attachments/assets/03ba4630-2253-43a1-b0f6-c3a1e1fac233)
 
+## 📸 video de funcionamiento
+
 ## 🛠️ Cómo Ejecutar el Proyecto
 
 Clona el repositorio.
