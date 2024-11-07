@@ -55,6 +55,8 @@ Nivel de Inclinación
 
 ## 📸 video de funcionamiento
 
+![WhatsApp Video 2024-11-06 at 6 44 46 PM](https://github.com/user-attachments/assets/36637d51-f580-4ea9-9647-751dd8309ca2)
+
 ## 🛠️ Cómo Ejecutar el Proyecto
 
 Clona el repositorio.
