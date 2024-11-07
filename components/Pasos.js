@@ -8,7 +8,7 @@ const StepCounter = () => {
   useEffect(() => {
     Accelerometer.setUpdateInterval(100);
     let previousAcceleration = { x: 0, y: 0, z: 0 };
-    const threshold = 1.8;
+    const Umbral = 1.8;
 
     const accelSubscription = Accelerometer.addListener(({ x, y, z }) => {
       const totalAcceleration = Math.sqrt(x * x + y * y + z * z);
@@ -20,7 +20,7 @@ const StepCounter = () => {
 
       const delta = totalAcceleration - totalPreviousAcceleration;
 
-      if (delta > threshold) {
+      if (delta > Umbral) {
         setSteps((prevSteps) => prevSteps + 1);
       }
 
